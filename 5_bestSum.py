@@ -42,11 +42,10 @@ def bestSum(targetSum, numbers):
             if shortestCombination is None or len(combination) < len(shortestCombination):
                 shortestCombination = combination.copy()
 
-    if shortestCombination:
+    if shortestCombination!=None:
         memo[targetSum] = shortestCombination.copy()
     else:
         memo[targetSum] = None
-    print(memo)
     return shortestCombination
 
 
