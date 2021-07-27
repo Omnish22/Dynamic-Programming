@@ -35,5 +35,5 @@ def canConstruct(target,wordBank,memo={}):
 
 print(canConstruct('abcdef',['ab','abc','cd','def','abcd']))
 print(canConstruct('skateboard',['bo','rd','ate','t','ska','sk','boar']))
-
+print(canConstruct('enterapotentpot',['a','p','ent','enter','ot','o','t']))
 print(canConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef',["e",'ee','eee','eeee','eeeee','eeeeee']))
